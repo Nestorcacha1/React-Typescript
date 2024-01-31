@@ -11,16 +11,6 @@ const mockTodos = [
     title: "Ver directo de midudev en Youtube",
     completed: true,
   },
-  {
-    id: "2",
-    title: "Todo 2",
-    completed: false,
-  },
-  {
-    id: "3",
-    title: "Todo 3",
-    completed: false,
-  },
 ];
 const App: React.FC = () => {
   const [todos, setTodos] = useState(mockTodos);
