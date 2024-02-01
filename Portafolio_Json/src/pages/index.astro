@@ -7,9 +7,11 @@ import Hero from "@/components/Sections/Hero.astro";
 import Projects from "@/components/Sections/Projects.astro";
 import Skills from "@/components/Skills.astro";
 import KeyboardManager from "@/components/Sections/KeyboardManager.astro";
+import { basics } from "@/cv_portafolio.json";
+const { name, label } = basics;
 ---
 
-<Layout title="Potafolio Minimalista">
+<Layout title=`Potafolio de ${name} - ${label}`>
   <main>
     <Hero />
     <Abouth />
