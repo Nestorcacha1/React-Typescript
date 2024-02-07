@@ -1,0 +1,27 @@
+main {
+  font-family: "Courier New", Courier, monospace;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 12px;
+}
+div {
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+span button {
+  font-weight: 600;
+  color: rgb(51, 48, 54);
+  gap: 6px;
+  margin-left: 16px;
+  background: lemonchiffon;
+}
+
+button:hover {
+  color: #ff0000;
+  cursor: pointer;
+}
