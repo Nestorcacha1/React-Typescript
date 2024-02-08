@@ -1,0 +1,39 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  max-width: 500px;
+  max-height: 800px;
+  background-color: burlywood;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid rgb(50, 47, 224);
+}
+p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: rgb(50, 47, 224);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
